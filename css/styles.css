@@ -1,0 +1,104 @@
+body {
+  background-color: #2C3333;
+  margin: 0px;
+  color: #E7F6F2;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Michroma', sans-serif;
+  height: auto;
+
+}
+
+.top-bar {
+  background-color: #395B64;
+  margin-top: 0px;
+  width: 100%;
+
+}
+.menu-bar {
+  margin: 0;
+  padding: 15px;
+}
+
+#Home {
+  margin-top: 0px;
+}
+
+.top-container {
+  position: relative;
+  text-align: center;
+}
+
+#name {
+  font-size: 2.5rem;
+}
+
+#profession {
+  font-size: 1.25rem;
+  margin-bottom: 200px;
+}
+
+.middle-container {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+}
+
+
+.middle-container-about-row{
+  margin-bottom: 200px;
+  text-align: left;
+}
+
+.about-me-photo {
+  width: 25%;
+  margin: auto 30px;
+  height: auto;
+  float: left;
+}
+
+
+.bottom-container {
+  background-color: #3F4E4F;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.botton-container-row {
+
+}
+
+.contact-list {
+}
+
+a: link, visited {
+  text-decoration: none;
+  list-style: none;
+  color: #E7F6F2;
+}
+
+
+
+
+
+
+#upBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #395B64; /* Set a background color */
+  color: #A5C9CA; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#upBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
