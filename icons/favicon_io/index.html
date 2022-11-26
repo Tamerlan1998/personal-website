@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="icons/favicon_io/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="index.html"><img class="navbar-brand" src="icons/Systems_and_technology_programming_company_logo-removebg-preview.png" alt="icon"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Me</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">ss</a></li>
+              <li><a class="dropdown-item" href="">Skills</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#skillsJ">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="example-websites.html">Example Websites</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactJ">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="top-container">
+      <div id="name">
+        <h1>I'm Tamerlan</h1>
+      </div>
+      <div id="profession">
+        <h3>Front-end Developer</h3>
+      </div>
+    </div>
+
+    <div class="middle-container">
+      <div class="middle-container-about"><h2 id="aboutJ">About Me</h2>
+        <div class="middle-container-about-row">
+          <img class="about-me-photo" src="images/tamerlan.jpeg" alt="profile Photo">
+          <h3>Tamerlan Suleymanov</h3>
+          <p>Hello visitor. I'm Tamerlan Suleymanov. I am a front-end developer.<br>Welcome to my personal website.<br>Hope you will like it</p>
+        </div>
+      </div>
+
+      <div class="middle-container-skills"><h2 id="skillsJ">Skills</h2></div>
+        <div class="middle-container-skills-row">
+          <table cellspacing="10px" style="line-height: 4;">
+            <tr>
+              <td>HTML</td>
+              <td style="padding-left: 400px;"><progress value="90" max="100">90%</progress></td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+            <tr>
+              <td>Node.js</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+            <tr>
+              <td>React.js</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+            <tr>
+              <td>jQuery</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+            <tr>
+              <td>Express.js</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td style="padding-left: 400px;"><progress value="70" max="100">70%</progress></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+    <div class="bottom-container"><h4 id="contactJ"style="margin-bottom: 0px; padding-top: 20px;">Contact</h4>
+      <div class="bottom-container-row"><ul style="list-style: none; width: 94%;
+      text-align: center;">
+          <li><a class="contact-list" style="color: #E7F6F2; text-decoration: none; "href="https://www.linkedin.com/in/tamerlan-suleymanov-a32627198/">LinkedIn</a></li>
+          <li><a class="contact-list" style="margin-bottom: 0px; color: #E7F6F2; text-decoration: none;"href="https://github.com/Tamerlan1998">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="upBtn" title="Go to top">⇪</button>
+
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("upBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+  </body>
+
+</html>
